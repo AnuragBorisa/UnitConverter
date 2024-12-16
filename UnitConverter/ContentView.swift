@@ -40,7 +40,7 @@
                             ForEach(unitss,id: \.self){
                                 Text("\($0)")
                             }
-                        }
+                        }.pickerStyle(.segmented)
                         Text("Selected Input Unit : \(inputUnit)")
                     }
                     Section{
@@ -48,7 +48,7 @@
                             ForEach(unitss,id: \.self){
                                 Text("\($0)")
                             }
-                        }
+                        }.pickerStyle(.segmented)
                         Text("Selected Output Unit : \(outputUnit)")
                     }
                     Section{
